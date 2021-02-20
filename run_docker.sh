@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag demo_house_2 .
+docker build --tag house_price .
 
 # Step 2: 
 # List docker images
@@ -12,7 +12,7 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8082:80 demo_house_2 bash
+docker run -p 8082:80 house_price bash
 
 
 
